@@ -1,0 +1,580 @@
+﻿[2015.07.01-13.47.56:440][  0]Log file open, 07/01/15 15:47:56
+[2015.07.01-13.47.56:440][  0]LogInit:Display: Running engine for game: ProjectNarnia
+[2015.07.01-13.47.56:440][  0]LogInit:Display: RandInit(-310789526) SRandInit(-310789526).
+[2015.07.01-13.47.56:440][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.01-13.47.56:440][  0]LogStats: Stats thread started
+[2015.07.01-13.47.56:440][  0]LogInit: Version: 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.01-13.47.56:440][  0]LogInit: API Version: 2579680
+[2015.07.01-13.47.56:440][  0]LogInit: Compiled (64-bit): Jun 18 2015 11:02:04
+[2015.07.01-13.47.56:440][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.07.01-13.47.56:440][  0]LogInit: Build Configuration: Development
+[2015.07.01-13.47.56:440][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.01-13.47.56:440][  0]LogInit: Command line:  
+[2015.07.01-13.47.56:440][  0]LogInit: Base directory: D:/Programme/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.07.01-13.47.56:440][  0]LogInit: Rocket: 1
+[2015.07.01-13.47.56:451][  0]LogInit: Using libcurl 7.41.0
+[2015.07.01-13.47.56:451][  0]LogInit:  - built for x86_64-pc-win32
+[2015.07.01-13.47.56:451][  0]LogInit:  - supports SSL with WinSSL
+[2015.07.01-13.47.56:451][  0]LogInit:  - other features:
+[2015.07.01-13.47.56:451][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.01-13.47.56:451][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.01-13.47.56:451][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.01-13.47.56:451][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.01-13.47.56:451][  0]LogInit:      CURL_VERSION_IDN
+[2015.07.01-13.47.56:451][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.01-13.47.56:451][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.01-13.47.56:451][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.01-13.47.56:451][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.01-13.47.56:451][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.07.01-13.47.56:460][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.01-13.47.56:471][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.01-13.47.56:476][  0]LogInit: Object subsystem initialized
+[2015.07.01-13.47.56:477][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.01-13.47.56:477][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/GDV-Projekt/ProjectNarnia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.01-13.47.56:477][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.01-13.47.56:477][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/GDV-Projekt/ProjectNarnia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.01-13.47.56:477][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.01-13.47.56:477][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/GDV-Projekt/ProjectNarnia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.01-13.47.56:477][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.01-13.47.56:477][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.07.01-13.47.56:492][  0]LogInit: Computer: SILVAN-PC
+[2015.07.01-13.47.56:492][  0]LogInit: User: Silvan
+[2015.07.01-13.47.56:492][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.07.01-13.47.56:492][  0]LogInit: High frequency timer resolution =3.312685 MHz
+[2015.07.01-13.47.56:492][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.07.01-13.47.56:492][  0]LogMemory: Platform Memory Stats for Windows
+[2015.07.01-13.47.56:492][  0]LogMemory: Process Physical Memory: 50.77 MB used, 50.77 MB peak
+[2015.07.01-13.47.56:492][  0]LogMemory: Process Virtual Memory: 24.27 MB used, 24.27 MB peak
+[2015.07.01-13.47.56:492][  0]LogMemory: Physical Memory: 1845.76 MB used, 12166.62 MB total
+[2015.07.01-13.47.56:492][  0]LogMemory: Virtual Memory: 283.95 MB used, 8388608.00 MB total
+[2015.07.01-13.47.56:521][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.01-13.47.56:700][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/Programme/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/Programme/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.01-13.47.57:054][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.07.01-13.47.57:054][  0]LogD3D11RHI: Adapter has 2027MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.07.01-13.47.57:061][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.07.01-13.47.57:061][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2015.07.01-13.47.57:061][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.07.01-13.47.57:065][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.07.01-13.47.57:069][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.07.01-13.47.57:079][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.01-13.47.57:735][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.01-13.47.57:747][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.07.01-13.47.57:758][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.07.01-13.47.57:770][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.07.01-13.47.57:783][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.07.01-13.47.57:793][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.07.01-13.47.57:804][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.07.01-13.47.57:814][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.07.01-13.47.57:824][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.07.01-13.47.57:834][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.07.01-13.47.57:844][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.07.01-13.47.57:855][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.07.01-13.47.57:894][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.07.01-13.47.57:903][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.01-13.47.57:913][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.01-13.47.57:924][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.01-13.47.57:924][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.07.01-13.47.58:089][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.01-13.47.58:138][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Silvan/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.01-13.47.58:138][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Silvan/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.07.01-13.47.58:138][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/GDV-Projekt/ProjectNarnia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.01-13.47.58:138][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.01-13.47.58:138][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/GDV-Projekt/ProjectNarnia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.07.01-13.47.58:138][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.07.01-13.47.58:260][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.07.01-13.47.58:271][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Silvan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.07.01-13.47.58:422][  0]LogInit: Selected Device Profile: [Windows]
+[2015.07.01-13.47.58:429][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.01-13.47.58:429][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.01-13.47.58:452][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.01-13.47.58:452][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.01-13.47.58:785][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.07.01-13.47.59:548][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.07.01-13.47.59:826][  0]SourceControl: Info Source control is disabled
+[2015.07.01-13.48.00:096][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.07.01-13.48.00:096][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.07.01-13.48.00:154][  0]LogEngine: Initializing Engine...
+[2015.07.01-13.48.00:156][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.07.01-13.48.00:157][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.07.01-13.48.00:270][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.07.01-13.48.00:277][  0]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.01-13.48.00:295][  0]LogInit: FAudioDevice initialized.
+[2015.07.01-13.48.00:322][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Silvan/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.07.01-13.48.00:327][  0]LogInit: Texture streaming: Disabled
+[2015.07.01-13.48.00:348][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.07.01-13.48.00:348][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.1-2591939+++depot+UE4-Releases+4.8
+[2015.07.01-13.48.00:348][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 63ae0425466c6f65eeb5439200c4cbba|16ffa05e03dc4cfda8fe4198e1102ff4|ffbd022f-d859-4116-a567-25e39becdd18
+[2015.07.01-13.48.00:348][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.07.01-13.48.00:369][  0]LogInit: Transaction tracking system initialized
+[2015.07.01-13.48.00:471][  0]BlueprintLog: New page: Editor Load
+[2015.07.01-13.48.00:500][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2015.07.01-13.48.00:500][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.07.01-13.48.01:171][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.07.01-13.48.01:171][  0]LogConsoleResponse:Display: 
+[2015.07.01-13.48.01:260][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.07.01-13.48.01:428][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.01-13.48.01:431][  0]LightingResults: New page: Lighting Build
+[2015.07.01-13.48.01:443][  0]MapCheck: New page: Map Check
+[2015.07.01-13.48.01:443][  0]LightingResults: New page: Lighting Build
+[2015.07.01-13.48.01:452][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001595A3E0
+[2015.07.01-13.48.01:803][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.07.01-13.48.01:811][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.01-13.48.01:834][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.01-13.48.01:873][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.519ms to complete.
+[2015.07.01-13.48.01:873][  0]LogFileHelpers: Loading map 'Template_Default' took 0.445
+[2015.07.01-13.48.01:941][  0]LogCollectionManager: Loaded 0 collections in 0.001530 seconds
+[2015.07.01-13.48.01:946][  0]LogContentBrowser: Native class hierarchy populated in 0.0053 seconds. Added 1792 classes and 301 folders.
+[2015.07.01-13.48.01:982][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.07.01-13.48.02:003][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.07.01-13.48.02:049][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.07.01-13.48.02:082][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.07.01-13.48.02:085][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.07.01-13.48.02:106][  0]LogLoad: Full Startup: 6.83 seconds (BP compile: 0.16 seconds)
+[2015.07.01-13.48.02:489][  0]SourceControl: Info On branch master
+[2015.07.01-13.48.02:489][  0]SourceControl: Info Your branch is ahead of 'origin/master' by 1 commit.
+[2015.07.01-13.48.02:489][  0]SourceControl: Info   (use "git push" to publish your local commits)
+[2015.07.01-13.48.02:489][  0]SourceControl: Info Changes not staged for commit:
+[2015.07.01-13.48.02:489][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2015.07.01-13.48.02:489][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2015.07.01-13.48.02:490][  0]SourceControl: Info 	modified:   ProjectNarnia/Intermediate/CachedAssetRegistry.bin
+[2015.07.01-13.48.02:490][  0]SourceControl: Info 	modified:   ProjectNarnia/Saved/Config/Windows/Engine.ini
+[2015.07.01-13.48.02:490][  0]SourceControl: Info 	modified:   ProjectNarnia/Saved/Logs/ProjectNarnia.log
+[2015.07.01-13.48.02:490][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2015.07.01-13.48.02:490][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.07.01-13.48.02:513][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.07.01-13.48.02:644][  0]LogRenderer: Reallocating scene render targets to support 1016x928 (Frame:2).
+[2015.07.01-13.48.04:184][  5]LogAssetRegistry: Asset discovery search completed in 3.6936 seconds
+[2015.07.01-13.48.07:221][216]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.01-13.48.07:221][216]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.01-13.48.07:221][216]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.01-13.48.07:221][216]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.01-13.48.07:221][216]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.01-13.48.07:221][216]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.01-13.48.07:221][216]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.01-13.48.07:222][216]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.07.01-13.48.07:418][216]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.07.01-13.48.07:475][216]Cmd: MAP LOAD FILE="../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Content/Levels/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.07.01-13.48.07:475][216]LightingResults: New page: Lighting Build
+[2015.07.01-13.48.07:494][216]LoadErrors: New page: Loading map: DefaultLevel.umap
+[2015.07.01-13.48.07:495][216]MapCheck: New page: Map Check
+[2015.07.01-13.48.07:495][216]LightingResults: New page: Lighting Build
+[2015.07.01-13.48.07:501][216]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E527880
+[2015.07.01-13.48.07:544][216]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.07.01-13.48.07:552][216]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.07.01-13.48.07:581][216]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.07.01-13.48.07:620][216]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.518ms to complete.
+[2015.07.01-13.48.07:620][216]LogFileHelpers: Loading map 'DefaultLevel' took 0.146
+[2015.07.01-13.48.07:625][216]LoadErrors:Error: Error Failed import for PhysicsSerializer /Game/Assets/Blueprints/BP_Random_Foliage.BP_Random_Foliage_C:InstancedStaticMeshComponent_0.PhysicsSerializer
+[2015.07.01-13.48.17:888][209]LogMaterial: Missing cached shader map for material M_lavahelm_MASTER, compiling. 
+[2015.07.01-13.48.17:937][209]LogStaticMesh: Building static mesh SM_Lava_Knight...
+[2015.07.01-13.48.18:701][209]LogStaticMesh: Built static mesh [0.764590.2s] /Game/Elemental/Characters/Character_LavaKnight/Mesh/SM_Lava_Knight.SM_Lava_Knight
+[2015.07.01-13.48.18:734][209]LogActorFactory: Actor Factory created SM_Lava_Knight
+[2015.07.01-13.48.19:580][283]LogActorFactory: Actor Factory created SM_Lava_Knight
+[2015.07.01-13.48.30:266][105]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.07.01-13.48.31:881][243]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.01-13.48.31:900][243]PIE: New page: PIE session: DefaultLevel (Jul 1, 2015, 5:48:31 PM)
+[2015.07.01-13.48.31:900][243]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.07.01-13.48.31:903][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002314s)
+[2015.07.01-13.48.31:903][243]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.07.01-13.48.31:904][243]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2015.07.01-13.48.31:904][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.003508s)
+[2015.07.01-13.48.31:924][243]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.01-13.48.31:930][243]LogInit: FAudioDevice initialized.
+[2015.07.01-13.48.31:980][243]LogWorld: Game class is 'GameMode'
+[2015.07.01-13.48.31:984][243]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.07.01-15.48.31
+[2015.07.01-13.48.31:984][243]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.01-13.48.31:984][243]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.01-13.48.31:984][243]LogWorld: Bringing up level for play took: 0.002148
+[2015.07.01-13.48.31:993][243]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.008
+[2015.07.01-13.48.50:792][255]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017CA7380
+[2015.07.01-13.49.04:763][434]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N'
+[2015.07.01-13.49.04:765][434]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N' while loading ../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Content/Elemental/Environment/ThroneRoom_Surfaces02/Material/Throne_DamageBlend.uasset.
+[2015.07.01-13.49.04:765][434]LoadErrors:Error: Error /Game/Elemental/Environment/ThroneRoom_Surfaces02/Material/Throne_DamageBlend : Can't find file for asset. /Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N
+[2015.07.01-13.49.04:766][434]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N'
+[2015.07.01-13.49.04:766][434]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N' while loading ../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Content/Elemental/Environment/ThroneRoom_Surfaces02/Material/Throne_DamageBlend.uasset.
+[2015.07.01-13.49.04:783][434]LogLinker:Warning: Can't find file '/Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N'
+[2015.07.01-13.49.04:783][434]LoadErrors: Info Failed to load /Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N.T_TilingNoise06_N Referenced by MaterialExpressionTextureSample_3
+[2015.07.01-13.49.04:783][434]LogLinker:Warning: Can't find file for asset '/Game/Elemental/Environment/TilingClouds/Textures/T_TilingNoise06_N' while loading NULL.
+[2015.07.01-13.49.04:905][434]LogMaterial: Missing cached shader map for material M_Archtecture_MASTEER, compiling. 
+[2015.07.01-13.49.04:923][434]LogMaterial: Missing cached shader map for material M_Archtecture_MASTEER, compiling. 
+[2015.07.01-13.49.04:941][434]LogStaticMesh: Building static mesh SM_Throne_Interior_Pillar_Damaged_02...
+[2015.07.01-13.49.04:956][434]LogStaticMesh: Built static mesh [0.014794.2s] /Game/Elemental/Environment/Throne_Interior/Mesh/SM_Throne_Interior_Pillar_Damaged_02.SM_Throne_Interior_Pillar_Damaged_02
+[2015.07.01-13.49.04:987][434]LogActorFactory: Actor Factory created SM_Throne_Interior_Pillar_Damaged_02
+[2015.07.01-13.49.05:856][508]LogActorFactory: Actor Factory created SM_Throne_Interior_Pillar_Damaged_02
+[2015.07.01-13.49.09:147][781]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.07.01-13.49.34:833][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.07.01-13.49.35:432][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lava_Knight)
+[2015.07.01-13.49.38:578][247]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.07.01-13.49.41:044][458]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_BuildingSetA_Tree_02)
+[2015.07.01-13.49.48:292][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Lava_Knight)
+[2015.07.01-13.49.49:594][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (S_BuildingSetA_Tree_02)
+[2015.07.01-13.49.59:480][949]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.07.01-13.49.59:480][949]PIE: New page: PIE session: DefaultLevel (Jul 1, 2015, 5:49:59 PM)
+[2015.07.01-13.49.59:481][949]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.07.01-13.49.59:483][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001575s)
+[2015.07.01-13.49.59:483][949]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.07.01-13.49.59:484][949]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2015.07.01-13.49.59:484][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.002502s)
+[2015.07.01-13.49.59:503][949]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.07.01-13.49.59:508][949]LogInit: FAudioDevice initialized.
+[2015.07.01-13.49.59:553][949]LogWorld: Game class is 'GameMode'
+[2015.07.01-13.49.59:562][949]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.07.01-15.49.59
+[2015.07.01-13.49.59:562][949]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.01-13.49.59:563][949]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.07.01-13.49.59:564][949]LogWorld: Bringing up level for play took: 0.006307
+[2015.07.01-13.49.59:568][949]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.435
+[2015.07.01-13.50.02:350][228]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E2A3F60
+[2015.07.01-13.50.11:280][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Blueprints/PhysMesh.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Blueprints/PhysMesh.uasset' is outside repository
+[2015.07.01-13.50.11:280][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' is outside repository
+[2015.07.01-13.50.11:280][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' is outside repository
+[2015.07.01-13.50.11:280][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/BoundingSphereBased_0-1_UVW.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/MaterialFunctions/BoundingSphereBased_0-1_UVW.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Materials/MPC_R2T.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Materials/MPC_R2T.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_2sidedLit.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_2sidedLit.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_FlipBookCounter_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Materials/Flipbooks/M_FlipBookCounter_01.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Meshes/ShadowTestMesh.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Meshes/ShadowTestMesh.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position1.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/ArtTools/RenderToTexture/Textures/FlipbookMotionVectors/Position1.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Editor/Slate/Icons/AssetIcons/Cone_16x.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Editor/Slate/Icons/AssetIcons/Cone_16x.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorBlueprintResources/ActorMacros.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorBlueprintResources/ActorMacros.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorKismetResources/StandardMacros.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorKismetResources/StandardMacros.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Anchor.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Anchor.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/TreeArrow_ExpandedRealtimePreview.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/TreeArrow_ExpandedRealtimePreview.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Cascade/CASC_BackgroundCube_MAT.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Cascade/CASC_BackgroundCube_MAT.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Matinee/MAT_EnableTrack_Mat.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Matinee/MAT_EnableTrack_Mat.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Thumbnails/FloorPlaneMaterial.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Utilities/ImageReflectionPreview.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMaterials/Utilities/ImageReflectionPreview.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/Ai_Spawnpoint.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/Ai_Spawnpoint.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/S_Trigger.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/S_Trigger.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/AI/S_NavLink.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/AI/S_NavLink.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/AudioIcons/S_Ambient_Sound_Moveable.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/AudioIcons/S_Ambient_Sound_Moveable.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/Crowd/T_Crowd_Spline.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/Crowd/T_Crowd_Spline.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/LightIcons/Light_Point_Stationary_Statics.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/LightIcons/Light_Point_Stationary_Statics.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorShapes/Materials/MI_ShapeInstance.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorShapes/Materials/MI_ShapeInstance.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorShellMaterials/MI_BaseFlat.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorShellMaterials/MI_BaseFlat.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorShellMaterials/ManualUVs/MI_BaseGrid_MUV.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorShellMaterials/ManualUVs/MI_BaseGrid_MUV.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorShellMaterials/SketchUp/MI_BaseGrid_WUV_SketchUp.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorShellMaterials/SketchUp/MI_BaseGrid_WUV_SketchUp.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorShellMaterials/WorldUVs/MI_BaseGrid_WUV.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorShellMaterials/WorldUVs/MI_BaseGrid_WUV.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorSounds/GamePreview/EjectFromPlayer.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorSounds/GamePreview/EjectFromPlayer.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EditorSounds/Notifications/CompileFailed.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineAnimNotifies/AnimNotify_PlayParticleEffect.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineAnimNotifies/AnimNotify_PlayParticleEffect.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineDebugMaterials/LightingModels/M_TextureDefinedSpecularReflecti.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineDebugMaterials/LightingModels/M_TextureDefinedSpecularReflecti.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineFonts/Roboto.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineFonts/Roboto.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineMaterials/RandomMirrorDisc.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineMaterials/RandomMirrorDisc.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineProduction/ReferenceNormalMap.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineProduction/ReferenceNormalMap.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineResources/AICON-Green.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineResources/AICON-Green.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineResources/Cursors/Arrow.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineResources/Cursors/Arrow.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineSky/BP_Sky_Shere.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineSky/BP_Sky_Shere.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineSounds/ReverbSettings/Alley.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineSounds/ReverbSettings/Alley.uasset' is outside repository
+[2015.07.01-13.50.11:281][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineTireTypes/DefaultTireType.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineTireTypes/DefaultTireType.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/FalloffSphere/Materials/M_EV_FalloffSphere_Master_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/FalloffSphere/Materials/M_EV_FalloffSphere_Master_01.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/FalloffSphere/Mesh/S_EV_FalloffSphere_Mesh_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/FalloffSphere/Mesh/S_EV_FalloffSphere_Mesh_01.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/FogEnvironment/Materials/M_EV_FogEnvironment_Master_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/FogEnvironment/Materials/M_EV_FogEnvironment_Master_01.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogEnvironment_01_Mesh.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogEnvironment_01_Mesh.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/Fogsheet/T_EV_Fogsheet_FlareColors_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/Fogsheet/T_EV_Fogsheet_FlareColors_01.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/Fogsheet/Materials/M_EV_FogSheet_1sided_Master_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/Fogsheet/Materials/M_EV_FogSheet_1sided_Master_01.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/Fogsheet/Mesh/MI_Fogsheet_HideClose.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/Fogsheet/Mesh/MI_Fogsheet_HideClose.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_Master_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/LightBeam/Materials/M_EV_Lightbeam_Master_01.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/EngineVolumetrics/LightBeam/Mesh/S_EV_SimpleLightBeam_01.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Engine_MI_Shaders/MI_Shader_BaseTileEx.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Engine_MI_Shaders/MI_Shader_BaseTileEx.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Engine_MI_Shaders/Instances/M_ES_Phong_Opaque_INST_01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Engine_MI_Shaders/Instances/M_ES_Phong_Opaque_INST_01.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Engine_MI_Shaders/Textures/Bokeh.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Engine_MI_Shaders/Textures/Bokeh.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/FunctionalTesting/Blueprints/AITesting_MoveGoal.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/AlphaBlend/World_Aligned_Blend.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/AlphaBlend/World_Aligned_Blend.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/UVRemap_0-1_ToRange.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/UVRemap_0-1_ToRange.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Debug/FunctionGraphSetup.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Debug/FunctionGraphSetup.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Density/ExponentialDensity.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/DiamondGradient.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/DiamondGradient.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Lighting/PixelDepthOffset_Foliage.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Lighting/PixelDepthOffset_Foliage.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Reflections/ReflectionVectorSoft.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Reflections/ReflectionVectorSoft.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/SpeedTree/SpeedTreeColorVariation.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/BakedDisplacement.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/BakedDisplacement.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Vectors/MF_RotateVector_90.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/Vectors/MF_RotateVector_90.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/ConstantScalebyDistance.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions01/WorldPositionOffset/ConstantScalebyDistance.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacityInstance.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacityInstance.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/MacroUVs/MacroUVs.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/MacroUVs/MacroUVs.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Gradients/GradientMap_Multi.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Gradients/GradientMap_Multi.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/MAXScripts/MeshSequenceFlipbook_Script.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/MAXScripts/MeshSequenceFlipbook_Script.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Normals/RotateNormalWhileMasking.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Normals/RotateNormalWhileMasking.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/NotInUse/WorldAlignedNormals_HighQuality_optimizationAttempt.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/NotInUse/WorldAlignedNormals_HighQuality_optimizationAttempt.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter/PivotPainter_HierarchyData.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter/PivotPainter_HierarchyData.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/UVs/BoundingBoxBased_0-1_UVW.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/AdjustNormalsToCompensateForRotateAboutAxisOffset.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/AdjustNormalsToCompensateForRotateAboutAxisOffset.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_ColorBurn.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_ColorBurn.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/ComplexMotion/Motion_4WayChaos.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/Particles/Distance_Blend.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/Particles/Distance_Blend.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/CameraWorldBlend.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/CameraWorldBlend.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/GetPostProcessFunctions/GetAmbientCubemapIntensity.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/GetPostProcessFunctions/GetAmbientCubemapIntensity.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_AddWorldPositionOffset.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_AddWorldPositionOffset.uasset' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Maps/Entry.umap: 'D:/Programme/Epic Games/4.8/Engine/Content/Maps/Entry.umap' is outside repository
+[2015.07.01-13.50.11:282][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Maps/Templates/Template_Default.umap: 'D:/Programme/Epic Games/4.8/Engine/Content/Maps/Templates/Template_Default.umap' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Maps/Templates/Thumbnails/Default.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Maps/Templates/Thumbnails/Default.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MapTemplates/Bokeh_5Sides.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MapTemplates/Bokeh_5Sides.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MapTemplates/lut/LUT_Afternoon.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MapTemplates/lut/LUT_Afternoon.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MapTemplates/Materials/BasicAsset01.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MapTemplates/Materials/BasicAsset01.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MaterialTemplates/Gradients/Gradient_Linear.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MaterialTemplates/Gradients/Gradient_Linear.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MaterialTemplates/PerfTricks/MultiChannelMask.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MaterialTemplates/Textures/T_multiMask.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MaterialTemplates/Textures/T_multiMask.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MobileResources/T_MobileControls_texture.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MobileResources/T_MobileControls_texture.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/MobileResources/HUD/AnalogHat.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/MobileResources/HUD/AnalogHat.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/TemplateResources/MI_Template_BaseBlue.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/TemplateResources/MI_Template_BaseBlue.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/ContentIntroCurve.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/ContentIntroCurve.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Audio/Audience.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Audio/Audience.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Basics/ContentBrowserOverview.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Basics/ContentBrowserOverview.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Basics/TutorialAssets/CameraActor_64x.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Basics/TutorialAssets/CameraActor_64x.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/BlueprintTutorials/BlueprintEditorTutorial.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintFunctionLibrary_64x.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/BlueprintTutorials/TutorialAssets/BlueprintFunctionLibrary_64x.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Code/AddingCode.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Code/AddingCode.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Foliage/FoliageWalkThrough.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Foliage/FoliageWalkThrough.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Foliage/TutorialAssets/Foliage.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Installation/InstallingVisualStudioTutorial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Installation/InstallingVisualStudioTutorial.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/InWorldBlueprintEditing/IWBE_Tutorial.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/SubEditors/TutorialAssets/android_Icon.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/SubEditors/TutorialAssets/android_Icon.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset: 'D:/Programme/Epic Games/4.8/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'D:/Programme/Epic Games/4.8/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'D:/Programme/Epic Games/4.8/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset: 'D:/Programme/Epic Games/4.8/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset' is outside repository
+[2015.07.01-13.50.11:283][960]SourceControl: Info fatal: D:/Programme/Epic Games/4.8/Engine/Content/: 'D:/Programme/Epic Games/4.8/Engine/Content/' is outside repository
+[2015.07.01-13.50.13:977][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/DefaultLevel" FILE="../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Content/Levels/DefaultLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.07.01-13.50.14:023][960]LogSavePackage: Save=27.836031ms
+[2015.07.01-13.50.14:023][960]LogSavePackage: Moving '../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Saved/DefaultLevelE9243B6E4C0DD5E7C663BF88C0E96E5D.tmp' to '../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Content/Levels/DefaultLevel.umap'
+[2015.07.01-13.50.14:041][960]LogFileHelpers: Saving map 'DefaultLevel' took 0.108
+[2015.07.01-13.50.32:470][908]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Basics/FeaturePacks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.01-13.50.32:606][908]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/InstallingiTunesTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.01-13.50.32:614][908]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.07.01-13.51.16:042][324]Cmd: QUIT_EDITOR
+[2015.07.01-13.51.16:250][324]LogExit: Preparing to exit.
+[2015.07.01-13.51.16:681][324]LogExit: Editor shut down
+[2015.07.01-13.51.16:681][324]LogExit: Transaction tracking system shut down
+[2015.07.01-13.51.16:682][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E81E480
+[2015.07.01-13.51.16:683][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E81D800
+[2015.07.01-13.51.16:683][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017CA4680
+[2015.07.01-13.51.16:683][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E81EAC0
+[2015.07.01-13.51.16:685][324]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E81D440
+[2015.07.01-13.51.16:799][324]LogExit: Object subsystem successfully closed.
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.07.01-13.51.16:853][324]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.07.01-13.51.16:894][324]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.07.01-13.51.16:895][324]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.07.01-13.51.16:895][324]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.07.01-13.51.16:895][324]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.07.01-13.51.16:895][324]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.07.01-13.51.16:895][324]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.07.01-13.51.16:895][324]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.07.01-13.51.16:895][324]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.07.01-13.51.17:006][324]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.07.01-13.51.17:132][324]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.07.01-13.51.17:132][324]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.07.01-13.51.17:132][324]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.07.01-13.51.17:132][324]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.07.01-13.51.17:132][324]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.07.01-13.51.17:132][324]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.07.01-13.51.17:132][324]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.07.01-13.51.17:150][324]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.07.01-13.51.17:151][324]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.07.01-13.51.17:151][324]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.07.01-13.51.17:151][324]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.07.01-13.51.17:153][324]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.07.01-13.51.17:154][324]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.07.01-13.51.17:154][324]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.07.01-13.51.17:254][324]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.07.01-13.51.17:254][324]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.07.01-13.51.17:262][324]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.07.01-13.51.17:262][324]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.07.01-13.51.17:263][324]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.07.01-13.51.17:271][324]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.07.01-13.51.17:271][324]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.07.01-13.51.17:271][324]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.07.01-13.51.17:271][324]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.07.01-13.51.17:271][324]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.07.01-13.51.17:272][324]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.07.01-13.51.17:272][324]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.07.01-13.51.17:272][324]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.07.01-13.51.17:272][324]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.07.01-13.51.17:272][324]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.07.01-13.51.17:363][324]LogDerivedDataCache: Shutdown
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.07.01-13.51.17:363][324]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.07.01-13.51.17:364][324]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.07.01-13.51.17:365][324]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.07.01-13.51.17:365][324]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.07.01-13.51.17:365][324]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.07.01-13.51.17:365][324]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.07.01-13.51.17:365][324]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.07.01-13.51.17:369][324]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.07.01-13.51.17:370][324]LogExit: Exiting.
+[2015.07.01-13.51.17:374][324]Log file closed, 07/01/15 15:51:17
