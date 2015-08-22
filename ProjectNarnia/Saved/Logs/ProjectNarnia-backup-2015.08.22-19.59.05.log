@@ -1,0 +1,600 @@
+﻿[2015.08.22-17.46.47:047][  0]Log file open, 08/22/15 19:46:47
+[2015.08.22-17.46.47:047][  0]LogInit:Display: Running engine for game: ProjectNarnia
+[2015.08.22-17.46.47:047][  0]LogInit:Display: RandInit(-1991777660) SRandInit(-1991777660).
+[2015.08.22-17.46.47:047][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.22-17.46.47:047][  0]LogStats: Stats thread started
+[2015.08.22-17.46.47:047][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.22-17.46.47:047][  0]LogInit: API Version: 2579680
+[2015.08.22-17.46.47:047][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.22-17.46.47:047][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.22-17.46.47:047][  0]LogInit: Build Configuration: Development
+[2015.08.22-17.46.47:047][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.22-17.46.47:047][  0]LogInit: Command line:  
+[2015.08.22-17.46.47:047][  0]LogInit: Base directory: D:/Programme/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.08.22-17.46.47:047][  0]LogInit: Rocket: 1
+[2015.08.22-17.46.47:059][  0]LogInit: Using libcurl 7.41.0
+[2015.08.22-17.46.47:059][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.22-17.46.47:059][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.22-17.46.47:059][  0]LogInit:  - other features:
+[2015.08.22-17.46.47:059][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.22-17.46.47:059][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.22-17.46.47:059][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.22-17.46.47:059][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.22-17.46.47:059][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.22-17.46.47:059][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.22-17.46.47:059][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.22-17.46.47:059][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.22-17.46.47:059][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.22-17.46.47:059][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.22-17.46.47:070][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.22-17.46.47:083][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.22-17.46.47:088][  0]LogInit: Object subsystem initialized
+[2015.08.22-17.46.47:089][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.08.22-17.46.47:089][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/GDV-Projekt/ProjectNarnia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-17.46.47:089][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.08.22-17.46.47:089][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/GDV-Projekt/ProjectNarnia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-17.46.47:089][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.08.22-17.46.47:089][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/GDV-Projekt/ProjectNarnia/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.22-17.46.47:089][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.22-17.46.47:089][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.22-17.46.47:096][  0]LogInit: Computer: SILVAN-PC
+[2015.08.22-17.46.47:096][  0]LogInit: User: Silvan
+[2015.08.22-17.46.47:096][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.22-17.46.47:096][  0]LogInit: High frequency timer resolution =3.312646 MHz
+[2015.08.22-17.46.47:096][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2015.08.22-17.46.47:096][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.22-17.46.47:096][  0]LogMemory: Process Physical Memory: 53.44 MB used, 53.44 MB peak
+[2015.08.22-17.46.47:096][  0]LogMemory: Process Virtual Memory: 24.59 MB used, 24.59 MB peak
+[2015.08.22-17.46.47:096][  0]LogMemory: Physical Memory: 2478.23 MB used, 12166.62 MB total
+[2015.08.22-17.46.47:096][  0]LogMemory: Virtual Memory: 312.21 MB used, 134217728.00 MB total
+[2015.08.22-17.46.47:125][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.08.22-17.46.47:314][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (D:/Programme/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (D:/Programme/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.22-17.46.47:679][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7800 Series (Feature Level 11_0)
+[2015.08.22-17.46.47:679][  0]LogD3D11RHI: Adapter has 2026MB of dedicated video memory, 0MB of dedicated system memory, and 6083MB of shared system memory, 2 output[s]
+[2015.08.22-17.46.47:683][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.08.22-17.46.47:683][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 6083MB of shared system memory, 0 output[s]
+[2015.08.22-17.46.47:684][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.22-17.46.47:684][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6083MB of shared system memory, 0 output[s]
+[2015.08.22-17.46.47:684][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.22-17.46.47:687][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.46.47:687][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.22-17.46.47:687][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.08.22-17.46.47:693][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.22-17.46.47:705][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.22-17.46.48:278][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.22-17.46.48:291][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.22-17.46.48:303][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.22-17.46.48:316][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.22-17.46.48:329][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.22-17.46.48:340][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.22-17.46.48:350][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.22-17.46.48:361][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.22-17.46.48:372][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.22-17.46.48:383][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.22-17.46.48:393][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.22-17.46.48:404][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.22-17.46.48:447][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.22-17.46.48:457][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.22-17.46.48:468][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.22-17.46.48:480][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.22-17.46.48:480][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.22-17.46.48:663][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.22-17.46.48:704][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/Silvan/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.22-17.46.48:705][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Silvan/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.22-17.46.48:705][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/GDV-Projekt/ProjectNarnia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.22-17.46.48:705][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.22-17.46.48:705][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/GDV-Projekt/ProjectNarnia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.22-17.46.48:705][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.22-17.46.48:822][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.22-17.46.48:833][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Silvan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.22-17.46.48:991][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.22-17.46.49:057][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.22-17.46.49:057][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.22-17.46.49:080][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.22-17.46.49:080][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.22-17.46.49:346][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.22-17.46.50:114][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.08.22-17.46.50:389][  0]SourceControl: Info Source control is disabled
+[2015.08.22-17.46.50:396][  0]SourceControl: Info Source control is disabled
+[2015.08.22-17.46.50:406][  0]SourceControl: Info Source control is disabled
+[2015.08.22-17.46.50:414][  0]SourceControl: Info Source control is disabled
+[2015.08.22-17.46.50:598][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.08.22-17.46.50:598][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.08.22-17.46.50:659][  0]LogEngine: Initializing Engine...
+[2015.08.22-17.46.50:662][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.22-17.46.50:663][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.22-17.46.50:777][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.08.22-17.46.50:785][  0]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.46.50:795][  0]LogInit: FAudioDevice initialized.
+[2015.08.22-17.46.50:819][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/Silvan/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.22-17.46.50:824][  0]LogInit: Texture streaming: Disabled
+[2015.08.22-17.46.50:845][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.08.22-17.46.50:845][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.22-17.46.50:845][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 63ae0425466c6f65eeb5439200c4cbba|16ffa05e03dc4cfda8fe4198e1102ff4|ffbd022f-d859-4116-a567-25e39becdd18
+[2015.08.22-17.46.50:845][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.08.22-17.46.50:872][  0]LogInit: Transaction tracking system initialized
+[2015.08.22-17.46.50:989][  0]BlueprintLog: New page: Editor Load
+[2015.08.22-17.46.51:021][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.08.22-17.46.51:021][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.08.22-17.46.51:692][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.22-17.46.51:692][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.22-17.46.51:692][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2015.08.22-17.46.51:692][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2015.08.22-17.46.51:751][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.08.22-17.46.51:751][  0]LogConsoleResponse:Display: 
+[2015.08.22-17.46.51:833][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.08.22-17.46.51:977][  0]SourceControl: Info Source control is disabled
+[2015.08.22-17.46.51:977][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.22-17.46.51:977][  0]LightingResults: New page: Lighting Build
+[2015.08.22-17.46.51:989][  0]MapCheck: New page: Map Check
+[2015.08.22-17.46.51:989][  0]LightingResults: New page: Lighting Build
+[2015.08.22-17.46.51:997][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006ADEB0B80
+[2015.08.22-17.46.52:290][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.08.22-17.46.52:295][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.22-17.46.52:322][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.22-17.46.52:360][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.491ms to complete.
+[2015.08.22-17.46.52:360][  0]LogFileHelpers: Loading map 'Template_Default' took 0.382
+[2015.08.22-17.46.52:440][  0]LogCollectionManager: Loaded 0 collections in 0.001753 seconds
+[2015.08.22-17.46.52:445][  0]LogContentBrowser: Native class hierarchy populated in 0.0054 seconds. Added 1792 classes and 301 folders.
+[2015.08.22-17.46.52:484][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.08.22-17.46.52:506][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.08.22-17.46.52:545][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.08.22-17.46.52:573][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.08.22-17.46.52:573][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.46.52:577][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.08.22-17.46.52:599][  0]LogLoad: Full Startup: 6.63 seconds (BP compile: 0.16 seconds)
+[2015.08.22-17.46.53:001][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.08.22-17.46.53:017][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.08.22-17.46.53:157][  0]LogRenderer: Reallocating scene render targets to support 1232x928 (Frame:2).
+[2015.08.22-17.46.53:781][  3]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.46.55:406][  7]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.46.57:837][ 18]LogLinker:Warning: Can't resolve asset name
+[2015.08.22-17.46.57:851][ 18]LogAssetRegistry: Asset discovery search completed in 6.8424 seconds
+[2015.08.22-17.46.59:762][203]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.46.59:855][203]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.22-17.46.59:855][203]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.22-17.46.59:855][203]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.22-17.46.59:855][203]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.22-17.46.59:855][203]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.22-17.46.59:855][203]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.22-17.46.59:877][203]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.46.59:921][203]Cmd: MAP LOAD FILE="../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Content/Levels/DefaultLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.08.22-17.46.59:921][203]LightingResults: New page: Lighting Build
+[2015.08.22-17.46.59:934][203]LoadErrors: New page: Loading map: DefaultLevel.umap
+[2015.08.22-17.46.59:935][203]MapCheck: New page: Map Check
+[2015.08.22-17.46.59:935][203]LightingResults: New page: Lighting Build
+[2015.08.22-17.46.59:941][203]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006A0D0F880
+[2015.08.22-17.47.00:023][203]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.47.00:027][203]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.08.22-17.47.00:059][203]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.08.22-17.47.00:098][203]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.5ms to complete.
+[2015.08.22-17.47.00:099][203]LogFileHelpers: Loading map 'DefaultLevel' took 0.179
+[2015.08.22-17.47.17:417][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.08.22-17.47.24:165][410]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.47.24:212][411]LogActorFactory: Actor Factory created Palm
+[2015.08.22-17.47.24:935][475]LogActorFactory: Actor Factory created Palm
+[2015.08.22-17.47.28:481][737]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.47.28:493][737]LogActorFactory: Actor Factory created SM_AncientHouse_Window
+[2015.08.22-17.47.29:244][804]LogActorFactory: Actor Factory created SM_AncientHouse_Window
+[2015.08.22-17.47.33:335][137]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.47.33:368][140]LogActorFactory: Actor Factory created S_Rock_01
+[2015.08.22-17.47.34:134][208]LogActorFactory: Actor Factory created S_Rock_01
+[2015.08.22-17.47.43:497][ 18]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.47.43:512][ 18]LogActorFactory: Actor Factory created SM_Cave_Castle_Tower_01
+[2015.08.22-17.47.44:370][ 93]LogActorFactory: Actor Factory created SM_Cave_Castle_Tower_01
+[2015.08.22-17.47.48:432][418]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.47.48:500][425]LogActorFactory: Actor Factory created SM_Cave_Castle_Tower_01b
+[2015.08.22-17.47.50:864][632]LogActorFactory: Actor Factory created SM_Cave_Castle_Tower_01b
+[2015.08.22-17.47.51:830][714]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.08.22-17.47.56:012][ 27]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.47.56:068][ 32]LogActorFactory: Actor Factory created SM_Cave_RopeBridge_01
+[2015.08.22-17.47.56:979][111]LogActorFactory: Actor Factory created SM_Cave_RopeBridge_01
+[2015.08.22-17.48.05:305][842]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.48.05:305][842]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.48.05:353][842]LogPlayLevel: PIE:  Blueprint regeneration took 47 ms (1 blueprints)
+[2015.08.22-17.48.05:355][842]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:48:05 PM)
+[2015.08.22-17.48.05:356][842]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.48.05:359][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003154s)
+[2015.08.22-17.48.05:359][842]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.48.05:360][842]LogPlayLevel: PIE: World Init took: (0.001173s)
+[2015.08.22-17.48.05:360][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004474s)
+[2015.08.22-17.48.05:380][842]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.48.05:384][842]LogInit: FAudioDevice initialized.
+[2015.08.22-17.48.05:435][842]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.48.05:442][842]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.48.05
+[2015.08.22-17.48.05:442][842]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.48.05:443][842]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.48.05:443][842]LogWorld: Bringing up level for play took: 0.004688
+[2015.08.22-17.48.05:447][842]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.111
+[2015.08.22-17.48.20:211][569]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000069E708F40
+[2015.08.22-17.48.31:297][693]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.48.31:297][693]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.48.31:342][693]LogPlayLevel: PIE:  Blueprint regeneration took 45 ms (1 blueprints)
+[2015.08.22-17.48.31:342][693]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:48:31 PM)
+[2015.08.22-17.48.31:343][693]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.48.31:345][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002479s)
+[2015.08.22-17.48.31:346][693]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.48.31:346][693]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2015.08.22-17.48.31:346][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.003498s)
+[2015.08.22-17.48.31:365][693]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.48.31:369][693]LogInit: FAudioDevice initialized.
+[2015.08.22-17.48.31:403][693]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.48.31:405][693]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.48.31
+[2015.08.22-17.48.31:405][693]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.48.31:406][693]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.48.31:406][693]LogWorld: Bringing up level for play took: 0.001896
+[2015.08.22-17.48.31:407][693]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.15
+[2015.08.22-17.48.37:117][331]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000069E70B6A0
+[2015.08.22-17.48.38:667][515]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2015.08.22-17.48.40:323][710]Cmd: DELETE
+[2015.08.22-17.48.40:323][710]Cmd: ACTOR DELETE
+[2015.08.22-17.48.40:324][710]LogEditorActor: Deleted Actor: PostProcessVolume
+[2015.08.22-17.48.40:337][710]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2015.08.22-17.48.43:796][ 88]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.48.43:796][ 88]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.48.43:837][ 88]LogPlayLevel: PIE:  Blueprint regeneration took 41 ms (1 blueprints)
+[2015.08.22-17.48.43:838][ 88]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:48:43 PM)
+[2015.08.22-17.48.43:838][ 88]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.48.43:841][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002577s)
+[2015.08.22-17.48.43:841][ 88]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.48.43:842][ 88]LogPlayLevel: PIE: World Init took: (0.001223s)
+[2015.08.22-17.48.43:842][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.003953s)
+[2015.08.22-17.48.43:860][ 88]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.48.43:865][ 88]LogInit: FAudioDevice initialized.
+[2015.08.22-17.48.43:900][ 88]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.48.43:903][ 88]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.48.43
+[2015.08.22-17.48.43:903][ 88]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.48.43:903][ 88]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.48.43:904][ 88]LogWorld: Bringing up level for play took: 0.001888
+[2015.08.22-17.48.43:905][ 88]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel 0.348
+[2015.08.22-17.48.49:344][705]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006A0A70900
+[2015.08.22-17.48.51:354][871]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight_Blueprint_C (DirectionalLight_Blueprint)
+[2015.08.22-17.50.00:919][235]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.50.00:919][235]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.50.00:962][235]LogPlayLevel: PIE:  Blueprint regeneration took 42 ms (1 blueprints)
+[2015.08.22-17.50.00:962][235]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:50:00 PM)
+[2015.08.22-17.50.00:963][235]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.50.00:965][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002244s)
+[2015.08.22-17.50.00:965][235]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.50.00:966][235]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2015.08.22-17.50.00:966][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.003662s)
+[2015.08.22-17.50.00:986][235]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.50.00:991][235]LogInit: FAudioDevice initialized.
+[2015.08.22-17.50.01:025][235]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.50.01:028][235]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.50.01
+[2015.08.22-17.50.01:028][235]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.50.01:028][235]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.50.01:028][235]LogWorld: Bringing up level for play took: 0.001983
+[2015.08.22-17.50.01:030][235]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.527
+[2015.08.22-17.50.02:392][378]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000069E709A80
+[2015.08.22-17.50.07:440][806]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.50.22:550][ 85]LogEditorActor: Deleted Actor: SkyLight
+[2015.08.22-17.50.22:566][ 85]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.08.22-17.50.23:869][204]Cmd: TRANSACTION UNDO
+[2015.08.22-17.50.23:869][204]LogEditorTransaction: Undo Delete selection
+[2015.08.22-17.50.23:892][204]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.50.31:576][877]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.50.31:576][877]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.50.31:617][877]LogPlayLevel: PIE:  Blueprint regeneration took 41 ms (1 blueprints)
+[2015.08.22-17.50.31:617][877]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:50:31 PM)
+[2015.08.22-17.50.31:618][877]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.50.31:620][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002540s)
+[2015.08.22-17.50.31:621][877]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.50.31:622][877]LogPlayLevel: PIE: World Init took: (0.001504s)
+[2015.08.22-17.50.31:622][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004204s)
+[2015.08.22-17.50.31:647][877]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.50.31:657][877]LogInit: FAudioDevice initialized.
+[2015.08.22-17.50.31:694][877]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.50.31:698][877]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.50.31
+[2015.08.22-17.50.31:699][877]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.50.31:699][877]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.50.31:700][877]LogWorld: Bringing up level for play took: 0.003335
+[2015.08.22-17.50.31:703][877]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel 0.145
+[2015.08.22-17.50.37:628][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006BF456340
+[2015.08.22-17.50.55:077][138]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.50.55:115][138]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.50.55:135][138]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.22-17.50.55:191][138]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.08.22-17.51.48:255][653]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.51.48:262][653]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.51.48:323][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006A51DC5E0
+[2015.08.22-17.51.48:339][653]LogPlayLevel: PIE:  Blueprint regeneration took 83 ms (1 blueprints)
+[2015.08.22-17.51.48:340][653]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:51:48 PM)
+[2015.08.22-17.51.48:340][653]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.51.48:343][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002647s)
+[2015.08.22-17.51.48:344][653]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.51.48:345][653]LogPlayLevel: PIE: World Init took: (0.001965s)
+[2015.08.22-17.51.48:345][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004746s)
+[2015.08.22-17.51.48:373][653]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.51.48:378][653]LogInit: FAudioDevice initialized.
+[2015.08.22-17.51.48:415][653]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.51.48:421][653]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.51.48
+[2015.08.22-17.51.48:421][653]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.51.48:421][653]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.51.48:422][653]LogWorld: Bringing up level for play took: 0.003872
+[2015.08.22-17.51.48:425][653]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel 0.868
+[2015.08.22-17.51.54:850][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006A3A92A20
+[2015.08.22-17.52.21:848][860]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.52.31:606][743]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.52.38:584][384]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.52.39:929][487]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.52.41:084][575]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.52.43:703][776]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.52.48:935][181]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.52.56:644][954]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.08.22-17.53.03:374][544]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.53.03:382][544]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.53.03:450][544]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2015.08.22-17.53.03:450][544]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:53:03 PM)
+[2015.08.22-17.53.03:450][544]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.53.03:453][544]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002656s)
+[2015.08.22-17.53.03:453][544]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.53.03:454][544]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2015.08.22-17.53.03:454][544]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004115s)
+[2015.08.22-17.53.03:480][544]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.53.03:486][544]LogInit: FAudioDevice initialized.
+[2015.08.22-17.53.03:522][544]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.53.03:525][544]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.53.03
+[2015.08.22-17.53.03:525][544]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.53.03:525][544]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.53.03:525][544]LogWorld: Bringing up level for play took: 0.001863
+[2015.08.22-17.53.03:527][544]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.031
+[2015.08.22-17.53.07:175][955]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006D7D5EDE0
+[2015.08.22-17.53.08:262][ 53]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.08.22-17.53.20:497][179]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.53.22:780][389]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.08.22-17.53.22:809][389]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2015.08.22-17.53.28:075][934]Cmd: TRANSACTION UNDO
+[2015.08.22-17.53.28:075][934]LogEditorTransaction: Undo Delete selection
+[2015.08.22-17.53.28:096][934]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.53.31:398][258]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.08.22-17.53.31:427][258]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2015.08.22-17.53.38:426][976]Cmd: TRANSACTION UNDO
+[2015.08.22-17.53.38:426][976]LogEditorTransaction: Undo Delete selection
+[2015.08.22-17.53.38:438][976]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.53.45:303][617]Cmd: DELETE
+[2015.08.22-17.53.45:303][617]Cmd: ACTOR DELETE
+[2015.08.22-17.53.45:303][617]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.08.22-17.53.45:333][617]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2015.08.22-17.53.47:519][845]Cmd: TRANSACTION UNDO
+[2015.08.22-17.53.47:519][845]LogEditorTransaction: Undo Delete Actors
+[2015.08.22-17.53.47:540][845]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.53.53:345][396]LogEditorActor: Deleted Actor: SkyLight
+[2015.08.22-17.53.53:378][396]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2015.08.22-17.53.55:566][612]Cmd: TRANSACTION UNDO
+[2015.08.22-17.53.55:566][612]LogEditorTransaction: Undo Delete selection
+[2015.08.22-17.53.55:588][612]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.54.05:992][533]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.08.22-17.54.07:890][701]Cmd: DELETE
+[2015.08.22-17.54.07:890][701]Cmd: ACTOR DELETE
+[2015.08.22-17.54.07:891][701]LogEditorActor: Deleted Actor: SkyLight
+[2015.08.22-17.54.07:921][701]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2015.08.22-17.54.10:176][906]Cmd: TRANSACTION UNDO
+[2015.08.22-17.54.10:176][906]LogEditorTransaction: Undo Delete Actors
+[2015.08.22-17.54.10:199][906]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.54.18:819][640]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.54.18:826][640]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.54.18:891][640]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.08.22-17.54.18:891][640]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:54:18 PM)
+[2015.08.22-17.54.18:892][640]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.54.18:894][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002580s)
+[2015.08.22-17.54.18:895][640]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.54.18:896][640]LogPlayLevel: PIE: World Init took: (0.001412s)
+[2015.08.22-17.54.18:896][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004188s)
+[2015.08.22-17.54.18:922][640]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.54.18:928][640]LogInit: FAudioDevice initialized.
+[2015.08.22-17.54.18:965][640]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.54.18:968][640]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.54.18
+[2015.08.22-17.54.18:969][640]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.54.18:969][640]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.54.18:969][640]LogWorld: Bringing up level for play took: 0.001937
+[2015.08.22-17.54.18:970][640]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.587
+[2015.08.22-17.54.25:773][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006E86A0680
+[2015.08.22-17.54.26:362][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cave_Castle_Tower_01b)
+[2015.08.22-17.54.31:385][855]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.08.22-17.54.44:025][948]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.08.22-17.54.56:845][ 83]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.54.56:851][ 83]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.54.56:915][ 83]LogPlayLevel: PIE:  Blueprint regeneration took 70 ms (1 blueprints)
+[2015.08.22-17.54.56:915][ 83]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:54:56 PM)
+[2015.08.22-17.54.56:915][ 83]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.54.56:918][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002247s)
+[2015.08.22-17.54.56:919][ 83]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.54.56:920][ 83]LogPlayLevel: PIE: World Init took: (0.001877s)
+[2015.08.22-17.54.56:920][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004324s)
+[2015.08.22-17.54.56:948][ 83]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.54.56:953][ 83]LogInit: FAudioDevice initialized.
+[2015.08.22-17.54.56:985][ 83]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.54.56:988][ 83]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.54.56
+[2015.08.22-17.54.56:988][ 83]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.54.56:988][ 83]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.54.56:989][ 83]LogWorld: Bringing up level for play took: 0.002032
+[2015.08.22-17.54.56:990][ 83]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.567
+[2015.08.22-17.54.59:273][336]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006E86A0540
+[2015.08.22-17.55.05:693][916]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2015.08.22-17.55.07:515][ 68]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.55.07:522][ 68]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.55.07:587][ 68]LogPlayLevel: PIE:  Blueprint regeneration took 72 ms (1 blueprints)
+[2015.08.22-17.55.07:587][ 68]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:55:07 PM)
+[2015.08.22-17.55.07:588][ 68]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.55.07:590][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002420s)
+[2015.08.22-17.55.07:591][ 68]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.55.07:592][ 68]LogPlayLevel: PIE: World Init took: (0.001399s)
+[2015.08.22-17.55.07:592][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.003969s)
+[2015.08.22-17.55.07:620][ 68]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.55.07:625][ 68]LogInit: FAudioDevice initialized.
+[2015.08.22-17.55.07:661][ 68]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.55.07:664][ 68]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.55.07
+[2015.08.22-17.55.07:664][ 68]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.55.07:665][ 68]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.55.07:665][ 68]LogWorld: Bringing up level for play took: 0.002076
+[2015.08.22-17.55.07:666][ 68]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel 0.109
+[2015.08.22-17.55.10:111][338]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006D7859C60
+[2015.08.22-17.55.11:153][432]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.08.22-17.55.24:253][623]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.55.25:118][699]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.55.25:141][699]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.55.32:794][322]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.55.49:147][694]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.55.49:510][723]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.55.56:501][312]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.55.56:860][337]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.56.10:081][442]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.56.12:357][636]BlueprintLog: New page: Compile DirectionalLight_Blueprint
+[2015.08.22-17.56.12:370][636]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.DirectionalLight_Blueprint_C_0.LightComponent0 and DirectionalLightComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.DirectionalLight_Blueprint_C_1.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.22-17.56.12:370][636]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.DirectionalLight_Blueprint_C_0.ArrowComponent0 and ArrowComponent /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.DirectionalLight_Blueprint_C_1.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.08.22-17.56.12:415][636]LogScript:Warning: Accessed None 'SkyLight'
+	DirectionalLight_Blueprint_C /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.DirectionalLight_Blueprint_C_1
+	Function /Game/Assets/Sky/DirectionalLight_Blueprint.DirectionalLight_Blueprint_C:UserConstructionScript:0035
+[2015.08.22-17.56.12:423][636]LogScript:Warning: Accessed None 'SkyLight'
+	DirectionalLight_Blueprint_C /Engine/Transient.World_4:PersistentLevel.DirectionalLight_Blueprint_C_2
+	Function /Game/Assets/Sky/DirectionalLight_Blueprint.DirectionalLight_Blueprint_C:UserConstructionScript:0035
+[2015.08.22-17.56.12:453][636]LogScript:Warning: Accessed None 'SkyLight'
+	DirectionalLight_Blueprint_C /Game/Levels/DefaultLevel.DefaultLevel:PersistentLevel.DirectionalLight_Blueprint_C_1
+	Function /Game/Assets/Sky/DirectionalLight_Blueprint.DirectionalLight_Blueprint_C:UserConstructionScript:0035
+[2015.08.22-17.56.12:453][636]LogScript:Warning: Accessed None 'SkyLight'
+	DirectionalLight_Blueprint_C /Engine/Transient.World_4:PersistentLevel.DirectionalLight_Blueprint_C_2
+	Function /Game/Assets/Sky/DirectionalLight_Blueprint.DirectionalLight_Blueprint_C:UserConstructionScript:0035
+[2015.08.22-17.56.12:461][636]BlueprintEditorCompileResults: Info [0566.50] Compile of DirectionalLight_Blueprint successful! [in 104 ms]
+[2015.08.22-17.56.13:313][708]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.56.13:339][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sky/DirectionalLight_Blueprint" FILE="../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Content/Assets/Sky/DirectionalLight_Blueprint.uasset" SILENT=true
+[2015.08.22-17.56.13:386][708]LogSavePackage: Save=11.654429ms
+[2015.08.22-17.56.13:386][708]LogSavePackage: Moving '../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Saved/DirectionalLight_BlueprintBB72F1B848973FA9DD8597976BFD625D.tmp' to '../../../../../../GitHub/GDV-Projekt/ProjectNarnia/Content/Assets/Sky/DirectionalLight_Blueprint.uasset'
+[2015.08.22-17.56.38:194][964]LogD3D11RHI: InitD3DDevice
+[2015.08.22-17.56.49:557][970]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.56.49:564][970]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.56.49:631][970]LogPlayLevel: PIE:  Blueprint regeneration took 74 ms (1 blueprints)
+[2015.08.22-17.56.49:631][970]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:56:49 PM)
+[2015.08.22-17.56.49:631][970]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.56.49:634][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002938s)
+[2015.08.22-17.56.49:635][970]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.56.49:636][970]LogPlayLevel: PIE: World Init took: (0.001252s)
+[2015.08.22-17.56.49:636][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004341s)
+[2015.08.22-17.56.49:663][970]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.56.49:669][970]LogInit: FAudioDevice initialized.
+[2015.08.22-17.56.49:703][970]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.56.49:706][970]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.56.49
+[2015.08.22-17.56.49:706][970]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.56.49:706][970]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.56.49:706][970]LogWorld: Bringing up level for play took: 0.001960
+[2015.08.22-17.56.49:708][970]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel 0.15
+[2015.08.22-17.56.50:995][107]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006E62F4AE0
+[2015.08.22-17.56.53:771][351]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.56.53:779][351]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.56.53:845][351]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.08.22-17.56.53:845][351]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:56:53 PM)
+[2015.08.22-17.56.53:845][351]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.56.53:848][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003012s)
+[2015.08.22-17.56.53:849][351]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.56.53:850][351]LogPlayLevel: PIE: World Init took: (0.001460s)
+[2015.08.22-17.56.53:850][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004637s)
+[2015.08.22-17.56.53:877][351]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.56.53:881][351]LogInit: FAudioDevice initialized.
+[2015.08.22-17.56.53:917][351]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.56.53:920][351]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.56.53
+[2015.08.22-17.56.53:920][351]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.56.53:920][351]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.56.53:920][351]LogWorld: Bringing up level for play took: 0.001945
+[2015.08.22-17.56.53:922][351]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel 0.365
+[2015.08.22-17.56.55:648][540]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006D7267380
+[2015.08.22-17.57.00:876][  9]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.57.00:883][  9]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.57.00:950][  9]LogPlayLevel: PIE:  Blueprint regeneration took 74 ms (1 blueprints)
+[2015.08.22-17.57.00:950][  9]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:57:00 PM)
+[2015.08.22-17.57.00:950][  9]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.57.00:953][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002982s)
+[2015.08.22-17.57.00:954][  9]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.57.00:955][  9]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2015.08.22-17.57.00:955][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004355s)
+[2015.08.22-17.57.00:982][  9]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.57.00:987][  9]LogInit: FAudioDevice initialized.
+[2015.08.22-17.57.01:031][  9]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.57.01:037][  9]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.57.01
+[2015.08.22-17.57.01:037][  9]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.57.01:038][  9]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.57.01:038][  9]LogWorld: Bringing up level for play took: 0.003998
+[2015.08.22-17.57.01:041][  9]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.516
+[2015.08.22-17.57.03:056][232]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006F8FD9940
+[2015.08.22-17.57.05:997][495]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2015.08.22-17.57.10:489][888]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight_Blueprint_C (DirectionalLight_Blueprint)
+[2015.08.22-17.57.11:568][982]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.57.11:575][982]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.57.11:642][982]LogPlayLevel: PIE:  Blueprint regeneration took 74 ms (1 blueprints)
+[2015.08.22-17.57.11:642][982]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:57:11 PM)
+[2015.08.22-17.57.11:643][982]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.57.11:646][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002865s)
+[2015.08.22-17.57.11:646][982]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.57.11:647][982]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2015.08.22-17.57.11:647][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004296s)
+[2015.08.22-17.57.11:676][982]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.57.11:680][982]LogInit: FAudioDevice initialized.
+[2015.08.22-17.57.11:718][982]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.57.11:725][982]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.57.11
+[2015.08.22-17.57.11:726][982]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.57.11:726][982]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.57.11:727][982]LogWorld: Bringing up level for play took: 0.005473
+[2015.08.22-17.57.11:731][982]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel 0.174
+[2015.08.22-17.57.15:497][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006E8795B20
+[2015.08.22-17.57.17:247][554]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.08.22-17.57.17:254][554]LogPlayLevel: [PIE] Compiling DefaultLevel before PIE...
+[2015.08.22-17.57.17:320][554]LogPlayLevel: PIE:  Blueprint regeneration took 74 ms (1 blueprints)
+[2015.08.22-17.57.17:321][554]PIE: New page: PIE session: DefaultLevel (Aug 22, 2015, 9:57:17 PM)
+[2015.08.22-17.57.17:321][554]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_DefaultLevel
+[2015.08.22-17.57.17:324][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002924s)
+[2015.08.22-17.57.17:324][554]LogAIModule: Creating AISystem for world DefaultLevel
+[2015.08.22-17.57.17:325][554]LogPlayLevel: PIE: World Init took: (0.001226s)
+[2015.08.22-17.57.17:325][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/DefaultLevel.DefaultLevel to /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel (0.004335s)
+[2015.08.22-17.57.17:354][554]LogInit: XAudio2 using '1 - M2762DP (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.22-17.57.17:359][554]LogInit: FAudioDevice initialized.
+[2015.08.22-17.57.17:397][554]LogWorld: Game class is 'GameMode'
+[2015.08.22-17.57.17:400][554]LogWorld: Bringing World /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel up for play (max tick rate 0) at 2015.08.22-19.57.17
+[2015.08.22-17.57.17:400][554]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.57.17:401][554]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_DefaultLevel.DefaultLevel:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.08.22-17.57.17:401][554]LogWorld: Bringing up level for play took: 0.002007
+[2015.08.22-17.57.17:402][554]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_DefaultLevel -0.155
+[2015.08.22-17.57.18:547][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000006E86CD580
+[2015.08.22-17.58.46:067][ 50]LogCrashTracker: 
+
+
+[2015.08.22-17.58.50:417][ 50]LogCrashTracker: 
+
+
+[2015.08.22-17.58.50:417][ 50]LogWindows: === Critical error: ===
+Fatal error!
+
+Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000170
+
+UE4Editor-Engine.dll!SetDecedentMobility() {0x00007ffc1ff21e20} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!UpdateAttachedMobility() {0x00007ffc1ff2d678} + 89 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Engine.dll!USceneComponent::PostEditChangeChainProperty() {0x00007ffc1ff1418b} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-PropertyEditor.dll!FPropertyNode::NotifyPostChange() {0x00007ffc1c3b318e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() {0x00007ffc1c397ef2} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-PropertyEditor.dll!FPropertyValueImpl::ImportText() {0x00007ffc1c398474} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-PropertyEditor.dll!FPropertyHandleByte::SetValue() {0x00007ffc1c3e9c31} + 162 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-DetailCustomizations.dll!FSceneComponentDetails::OnMobilityChanged() {0x00007ffc0c1bdf5d} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-DetailCustomizations.dll!TBaseSPMethodDelegateInstance<0,FSceneComponentDetails,0,TTypeWrapper<void> __cdecl(enum ECheckBoxState),enum EComponentMobility::Type>::Execute() {0x00007ffc0c178601} + 40 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-DetailCustomizations.dll!TBaseSPMethodDelegateInstance<0,FSceneComponentDetails,0,void __cdecl(enum ECheckBoxState),enum EComponentMobility::Type>::ExecuteIfSafe() {0x00007ffc0c17b44d} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SCheckBox::ToggleCheckedState() {0x00007ffc1ef1c688} + 37 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!SCheckBox::OnMouseButtonUp() {0x00007ffc1eeff9d9} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!<lambda_de96dc3471181973108233c6db1f9843>::operator()() {0x00007ffc1ed04ccc} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FToLeafmostPolicy,FPointerEvent,<lambda_de96dc3471181973108233c6db1f9843> >() {0x00007ffc1ecbd167} + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() {0x00007ffc1ed78617} + 78 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() {0x00007ffc1ed65d84} + 16 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ffc26b5d7ad} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ffc26b449d1} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ffc26b5edc3} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ffc26b3e5ba} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ffc4c6600dc} + 0 bytes
+USER32.dll {0x00007ffc4c65fc07} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ffc26b60186} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff68fd63c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff68fd549cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff68fd54a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff68fd665c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff68fd675d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ffc4c972d92} + 0 bytes
+ntdll.dll {0x00007ffc4cdf9f64} + 0 bytes
+ntdll.dll {0x00007ffc4cdf9f64} + 0 bytes
+
